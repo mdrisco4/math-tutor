@@ -3,7 +3,7 @@ import React from "react";
 function Algebra() {
     return (
       <>
-      <p>sdbhsdbjsfjsbcjsbj</p>
+      <h1>Algebra Page</h1>
       </>
     );
   }
