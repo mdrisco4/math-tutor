@@ -3,7 +3,7 @@ import React from "react";
 function Geometry() {
     return (
       <>
-      <h1>Geometry Page</h1>
+      <h1>Geometry</h1>
       <div className="unit-links-container">
         <h3 className="unit-links">Lessons</h3>
         <h3 className="unit-links">Quizzes</h3>

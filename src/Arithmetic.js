@@ -4,7 +4,7 @@ import "./Unit.css";
 function Arithmetic() {
   return (
     <>
-      <h1>Arithmetic Page</h1>
+      <h1>Arithmetic</h1>
       <div className="unit-links-container">
         <h3 className="unit-links">Lessons</h3>
         <h3 className="unit-links">Quizzes</h3>

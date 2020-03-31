@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <header>
-        <h1>MATH TUTORIAL</h1>
+        <h1 className='title'>MATH TUTORIAL</h1>
         <Link to="/">
           <h1>ROOT</h1>
         </Link>
@@ -21,23 +21,23 @@ function App() {
           <h1>HOME</h1>
         </Link>
         <div className="links-container">
-          <Link to="/Arithmetic">
+          <Link to="/Arithmetic" className='header-links'>
             <h3 className='page-links'>ARITHMETIC</h3>
           </Link>
-          <Link to="/Geometry">
+          <Link to="/Geometry" className='header-links'>
             <h3 className='page-links'>GEOMETRY</h3>
           </Link>
-          <Link to="/Algebra">
+          <Link to="/Algebra" className='header-links'>
             <h3 className='page-links'>ALGEBRA</h3>
           </Link>
-          <Link to="/Statistics">
+          <Link to="/Statistics" className='header-links'>
             <h3 className='page-links'>STATISTICS</h3>
           </Link>
-          <Link to="/Calculus">
+          <Link to="/Calculus" className='header-links'>
             <h3 className='page-links'>CALCULUS</h3>
           </Link>
-          <Link to="/LinearAlgebra">
-            <h3 className='page-links'>LINEAR ALGEBRA</h3>
+          <Link to="/LinearAlgebra" className='header-links'>
+            <h3 className='page-links'>L. ALGEBRA</h3>
           </Link>
         </div>
       </header>
