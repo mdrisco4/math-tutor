@@ -15,55 +15,57 @@ function App() {
       <header>
         <h1>MATH TUTORIAL</h1>
         <Link to="/">
-          <h1>root</h1>
+          <h1>ROOT</h1>
         </Link>
-        <Route path="/"></Route>
+        <Link to="/Home">
+          <h1>HOME</h1>
+        </Link>
+        <div className="links-container">
+          <Link to="/Arithmetic">
+            <h3>ARITHMETIC</h3>
+          </Link>
+          <Link to="/Geometry">
+            <h3>GEOMETRY</h3>
+          </Link>
+          <Link to="/Algebra">
+            <h3>ALGEBRA</h3>
+          </Link>
+          <Link to="/Statistics">
+            <h3>STATISTICS</h3>
+          </Link>
+          <Link to="/Calculus">
+            <h3>CALCULUS</h3>
+          </Link>
+          <Link to="/LinearAlgebra">
+            <h3>LINEAR ALGEBRA</h3>
+          </Link>
+        </div>
       </header>
       <main>
-        <div className="links-container">
-        {/* <Link to="/Home">
-          <h3>HOME</h3>
-        </Link>
-        <Route path="/Home">
-          <Home />
-        </Route> */}
-        <Link to="/Arithmetic">
-          <h3>ARITHMETIC</h3>
-        </Link>
-        <Route path="/Arithmetic">
-          <Arithmetic />
-        </Route>
-        <Link to="/Geometry">
-          <h3>GEOMETRY</h3>
-        </Link>
-        <Route path="/Geometry">
-          <Geometry />
-        </Route>
-        <Link to="/Algebra">
-          <h3>ALGEBRA</h3>
-        </Link>
-        <Route path="/Algebra">
-          <Algebra />
-        </Route>
-        <Link to="/Statistics">
-          <h3>STATISTICS</h3>
-        </Link>
-        <Route path="/Statistics">
-          <Statistics />
-        </Route>
-        <Link to="/Calculus">
-          <h3>CALCULUS</h3>
-        </Link>
-        <Route path="/Calculus">
-          <Calculus />
-        </Route>
-        <Link to="/LinearAlgebra">
-          <h3>LINEAR ALGEBRA</h3>
-        </Link>
-        <Route path="/LinearAlgebra">
-          <LinearAlgebra />
-        </Route>
-        </div>
+      <Route path="/">
+        Blank Page
+      </Route>
+      <Route path="/Home">
+        <Home />
+      </Route>
+          <Route path="/Arithmetic">
+            <Arithmetic />
+          </Route>
+          <Route path="/Geometry">
+            <Geometry />
+          </Route>
+          <Route path="/Algebra">
+            <Algebra />
+          </Route>
+          <Route path="/Statistics">
+            <Statistics />
+          </Route>
+          <Route path="/Calculus">
+            <Calculus />
+          </Route>
+          <Route path="/LinearAlgebra">
+            <LinearAlgebra />
+          </Route>
       </main>
     </>
   );
