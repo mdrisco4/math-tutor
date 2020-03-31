@@ -14,12 +14,23 @@ function App() {
     <>
       <header>
         <h1>MATH TUTORIAL</h1>
+        <Link to="/"><h1>root</h1></Link>
+    <Route path="/"></Route>
       </header>
       <main>
         <Link to="/Home">
-          <h3>Home</h3>
+          <h3>HOME</h3>
         </Link>
-        <Route path="/Home">goHome<h1>scscs</h1></Route>
+        <Route path="/Home">
+          <Home/>
+        </Route>
+
+        <Link to="/Algebra">
+          <h3>ALGEBRA</h3>
+        </Link>
+        <Route path="/Algebra">
+          <Algebra/>
+        </Route>
       </main>
     </>
   );

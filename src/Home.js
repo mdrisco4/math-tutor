@@ -6,8 +6,6 @@ function Home() {
   return (
     <>
     {/* <Route path="/Home">dfdf</Route> */}
-
-    
       <div>
           {/* <Link to="/algebra/" > */}
         <button>arithmetic</button>
