@@ -1,11 +1,17 @@
 import React from "react";
+import "./Unit.css";
 
 function Arithmetic() {
-    return (
-      <>
+  return (
+    <>
       <h1>Arithmetic Page</h1>
-      </>
-    );
-  }
-  
-  export default Arithmetic;
+      <div className="unit-links-container">
+        <h3 className="unit-links">Lessons</h3>
+        <h3 className="unit-links">Quizzes</h3>
+        <h3 className="unit-links">Tests</h3>
+      </div>
+    </>
+  );
+}
+
+export default Arithmetic;

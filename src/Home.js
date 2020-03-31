@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
     {/* <Route path="/Home">dfdf</Route> */}
-      <div>
+      <div className='info-wrappers'>
           {/* <Link to="/algebra/" > */}
         <button>arithmetic</button>
           {/* </Link> */}
@@ -17,7 +17,7 @@ function Home() {
           addition, division and subtraction.
         </p>
       </div>
-      <div>
+      <div className='info-wrappers'>
           {/* <Route path="/algebra/"/> */}
       <button>Geometry</button>
       <p>
@@ -25,20 +25,20 @@ function Home() {
         points, lines, surfaces solids and higher dimensional shapes.{" "}
       </p>
       </div>
-      <div>
+      <div className='info-wrappers'>
           {/* <Route path="/algebra/"/> */}
         <button>algebra</button>
         <p>
           Algebra deals with formulas, equations and finding unknown variables.
         </p>
       </div>
-      <div>
+      <div className='info-wrappers'>
           {/* <Route path="/algebra/"/> */}
         <button>statistics</button>
         <p>statistics symbols σ2 std(X) σX</p>
         <p>Statistics is the study of probability</p>
       </div>
-      <div>
+      <div className='info-wrappers'>
           {/* <Route path="/algebra/"/> */}
         <button>calculus</button>
         <p>
@@ -47,7 +47,7 @@ function Home() {
         </p>
         <p>Calculus is the studie of rates of change</p>
       </div>
-      <div>
+      <div className='info-wrappers'>
           {/* <Route path="/algebra/"/> */}
       <button>linear algebra</button>
       <p>

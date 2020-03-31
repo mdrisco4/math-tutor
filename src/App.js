@@ -22,28 +22,28 @@ function App() {
         </Link>
         <div className="links-container">
           <Link to="/Arithmetic">
-            <h3>ARITHMETIC</h3>
+            <h3 className='page-links'>ARITHMETIC</h3>
           </Link>
           <Link to="/Geometry">
-            <h3>GEOMETRY</h3>
+            <h3 className='page-links'>GEOMETRY</h3>
           </Link>
           <Link to="/Algebra">
-            <h3>ALGEBRA</h3>
+            <h3 className='page-links'>ALGEBRA</h3>
           </Link>
           <Link to="/Statistics">
-            <h3>STATISTICS</h3>
+            <h3 className='page-links'>STATISTICS</h3>
           </Link>
           <Link to="/Calculus">
-            <h3>CALCULUS</h3>
+            <h3 className='page-links'>CALCULUS</h3>
           </Link>
           <Link to="/LinearAlgebra">
-            <h3>LINEAR ALGEBRA</h3>
+            <h3 className='page-links'>LINEAR ALGEBRA</h3>
           </Link>
         </div>
       </header>
       <main>
       <Route path="/">
-        Blank Page
+        {/* Blank Page */}
       </Route>
       <Route path="/Home">
         <Home />
