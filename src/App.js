@@ -1,18 +1,18 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { Component } from "react";
 import Home from "./Home.js"
+import { Link } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
+      <header>
         <h1>MATH TUTORIAL</h1>
       </header>
       <body>
-        <Home></Home>
+        <Home/>
       </body>
-    </div>
+    </>
   );
 }
 
